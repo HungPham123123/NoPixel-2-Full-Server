@@ -514,7 +514,7 @@ AddEventHandler('RunUseItem', function(itemid, slot, inventoryName, isWeapon)
 
 
     if (itemid == "armor") then
-        local finished = exports["np-taskbar"]:taskBar(10000,"Armor",true,false,playerVeh)
+        local finished = exports["np-taskbar"]:taskBar(5000,"Armor",true,false,playerVeh)
         if (finished == 100) then
             SetPlayerMaxArmour(PlayerId(), 60 )
             SetPedArmour( player, 60 )

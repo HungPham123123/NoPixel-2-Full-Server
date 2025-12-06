@@ -348,7 +348,7 @@ itemList["glass"]	    = { craft: [{itemid: "recyclablematerial", amount: 1 } ], 
 
 
 itemList["advlockpick"]	= {fullyDegrades: true, decayrate: 0.25, displayname: "Adv Lock Pick", craft: [{itemid: "aluminium", amount: 15 }, {itemid: "plastic", amount: 1 }, {itemid: "rubber", amount: 1 }], price: 500, weight: 3, nonStack: false, model: "", image: "np_advanced-lockpick.png" , deg: false}
-itemList["armor"]	    = {fullyDegrades: true, decayrate: 0.25, displayname: "Chest Armor", craft: [{itemid: "aluminium", amount: 5 }, {itemid: "plastic", amount: 1 }, {itemid: "rubber", amount: 1 }], price: 250, weight: 30, nonStack: false, model: "", image: "np_chest-armor.png", information: "Protects you from bleeding and stumbling on injuries." , deg: false}
+itemList["armor"]	    = {fullyDegrades: true, decayrate: 0.25, displayname: "Chest Armor", craft: [{itemid: "aluminium", amount: 5 }, {itemid: "plastic", amount: 1 }, {itemid: "rubber", amount: 1 }], price: 250, weight: 3, nonStack: false, model: "", image: "np_chest-armor.png", information: "Protects you from bleeding and stumbling on injuries." , deg: false}
 itemList["bandage"]	    = {fullyDegrades: true, decayrate: 0.25, displayname: "Bandage", price: 15, weight: 1, nonStack: false, model: "prop_ld_health_pack", image: "np_bandage.png", information: "Heals Wounds and Reduces Bleeding" , deg: false}
 
 

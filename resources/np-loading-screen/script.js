@@ -29,6 +29,7 @@ progressPositions[0] = 0.0;
 
 
 
+
 /*
  Functions below : Vue object
  Descipition: controls and handles vue components 

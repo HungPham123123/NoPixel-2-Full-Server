@@ -462,3 +462,13 @@ body{
     list-style-type: circle;
     margin-top: 5px;
 }
+
+.last-border-header {
+animation: pulse 3s infinite;
+}
+
+  @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }

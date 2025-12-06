@@ -80,6 +80,7 @@ body {
   left: 0;
   right: 0;
   z-index: 9999;
+  animation: pulse 3s infinite;
 }
 
 .log {
@@ -159,35 +160,35 @@ body {
 }
 
 .bgcolor-first {
-  background-color: #2D98DA;
+  background-color: black;
 }
 
 .bgcolor-second {
-  background-color: #2774A5;
+   background-color: black;
 }
 
 .bgcolor-third {
-  background-color: #1A4966;
+   background-color: black;
 }
 
 .bgcolor-fourth {
-  background-color: #14374D;
+   background-color: black;
 }
 
 .color-first {
-  color: #2D98DA;
+   background-color: black;
 }
 
 .color-second {
-  color: #2774A5;
+  background-color: black;
 }
 
 .color-third {
-  color: #1A4966;
+   background-color: black;
 }
 
 .color-fourth {
-  color: #14374D;
+   background-color: black;
 }
 
 .log-containter {
@@ -342,3 +343,9 @@ body {
     left: -300px;
   }
 }
+
+  @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }

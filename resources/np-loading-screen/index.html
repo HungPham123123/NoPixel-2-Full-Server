@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <audio id="loading-music" src="images/song2.mp3" autoplay loop></audio>
     <div id="app">
         <div id="keepingColor">
             <div id="background">
@@ -56,7 +57,11 @@
         </div>
     </div>
 
-    <script src="script.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript">
+
+        const music = document.getElementById("loading-music");
+        music.volume = 0.2;
+    </script>
 </body>
 
 </html>
